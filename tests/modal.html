@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Tests</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="/src/components/modal/modal.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Modal</h1>
+            <p>Created By LuizFNunes</p>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <div>
+                <button class="btn btn-modal" data-target="modalExampleOne">Open Single Modal</button>
+                <button class="btn btn-modal" data-target="modalExampleTwo">Open Modal Big</button>
+                <button class="btn btn-modal" data-target="modalExampleThree" data-modal-title="Modal with Attributes" data-modal-message="This is a single modal with the values useds in the button!">Open Modal With Attributes</button>
+            </div>
+            <div>
+                <p>Code for button</p>
+                <code>
+<pre>&#x3C;button class=&#x22;btn btn-modal&#x22; data-target=&#x22;modalExampleOne&#x22;&#x3E;Open Modal&#x3C;/button&#x3E;</pre>
+                </code>
+            </div>
+            <div>
+                <p>Code for Modal</p>
+                <code>
+<pre>&#x3C;div class=&#x22;modal&#x22; id=&#x22;modalExampleOne&#x22;&#x3E;
+    &#x3C;div class=&#x22;modal-box&#x22;&#x3E;
+        &#x3C;div class=&#x22;modal-header&#x22;&#x3E;
+            &#x3C;h1&#x3E;Title Modal&#x3C;/h1&#x3E;
+            &#x3C;button class=&#x22;btn-close&#x22;&#x3E;&#x26;times;&#x3C;/button&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;modal-body&#x22;&#x3E;
+            &#x3C;p&#x3E;This is a simple modal with a static message!&#x3C;/p&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;modal-footer&#x22;&#x3E;
+            &#x3C;button class=&#x22;btn-close&#x22;&#x3E;Close&#x3C;/button&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</pre>
+                </code>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal One -->
+    <div class="modal" id="modalExampleOne">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h1 class="modal-title">Simple Modal</h1>
+                <button class="btn-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>This is a simple modal with a static message!</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-footer btn-close">Close</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal One-->
+    <!-- Modal Two -->
+    <div class="modal" id="modalExampleTwo">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h1 class="modal-title">Modal</h1>
+                <button class="btn-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit dolor, deserunt magni autem nulla esse quos aut odio eveniet?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ad veniam eaque magni, sint doloribus delectus quaerat error fugiat neque repudiandae explicabo beatae ullam necessitatibus modi odit minima nisi unde. Hic vero necessitatibus tenetur. Magnam quam eum incidunt eligendi repellendus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corrupti veniam, quia ratione expedita veritatis asperiores culpa eos, odit sequi possimus molestias porro nobis nemo cupiditate magnam tempora cum fugit dolore atque quae explicabo vitae dolorem? Voluptas asperiores modi, ex explicabo repudiandae fugiat similique corporis dolorum voluptatem, vitae aut eveniet!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, minima voluptates est voluptate sint atque quia, eum consequatur possimus fuga, veritatis non deleniti enim culpa sunt. Placeat aspernatur inventore odio iure doloribus distinctio, id dignissimos nihil itaque vitae ea fuga consectetur natus quisquam numquam voluptate saepe aut sint, assumenda iste accusamus enim corporis nisi sit. Officia, incidunt recusandae! Atque ea fugit pariatur recusandae minima, voluptas esse! Ipsam ullam debitis, porro provident accusantium culpa, officiis mollitia fuga quos veniam hic doloribus incidunt sapiente iure vitae minima non eligendi modi tempore similique autem? Dolorum, sit autem. Deleniti porro quas in officiis, quibusdam omnis, alias hic quos dolorem ex nobis possimus! Inventore magnam nam veniam aut sunt quam quis a nesciunt nobis corporis, quisquam libero aspernatur eveniet. Hic accusantium molestiae possimus illum, veniam unde, nam eligendi reprehenderit neque quo est tenetur debitis, eum quod. Optio, ipsum error eos consectetur omnis adipisci laboriosam. Ipsum, officiis eius hic quae vitae, ducimus a, quibusdam est corrupti molestiae dolore sapiente odio aperiam ipsa! Recusandae nostrum optio iusto laudantium. Officiis facere obcaecati minus rerum, atque ea, dignissimos esse accusantium saepe odit culpa quibusdam omnis. Eaque quidem provident dignissimos voluptatem unde ut at officia voluptatibus iusto, vel cum. Distinctio.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-footer btn-close">Close</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Two-->
+    <!-- Modal Three -->
+    <div class="modal" id="modalExampleThree">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h1 class="modal-title"></h1>
+                <button class="btn-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-message"></p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-footer btn-close">Close</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Three-->
+    <script src="/src/components/modal/modal.js"></script>
+</body>
+</html>

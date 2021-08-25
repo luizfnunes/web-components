@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Source+Sans+Pro:wght@300;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+header{
+    padding: 20px;
+    border-bottom: 1px solid #ced6e0;
+}
+header, main{
+    margin-bottom: 20px;
+}
+pre{
+    padding: 15px;
+    border: 1px solid #ced6e0;
+    background-color: #f1f2f6;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+main p{
+    padding: 10px 0;
+    margin: 10px;
+}
+.btn{
+    padding: 7px;
+    border: 1px solid #ced6e0;
+    background-color: #ffffff;
+    font-weight: 600;
+    color: #57606f;
+    cursor: pointer;
+    transition: background 0.5s ease-out;
+}
+.btn:hover{
+    background-color: #dfe4ea;
+
+}
